@@ -1,0 +1,27 @@
+{
+	"name": "example",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"engines": {
+		"node": ">=20",
+		"npm": ">=10"
+	},
+	"scripts": {
+		"dev": "vitepress dev",
+		"build": "vitepress build",
+		"preview": "vitepress preview"
+	},
+	"dependencies": {
+		"@dicebear/collection": "8.0.0",
+		"@dicebear/core": "8.0.0",
+		"vue": "3.4.21"
+	},
+	"devDependencies": {
+		"@types/node": "20.11.30",
+		"vitepress": "1.0.0"
+	},
+	"overrides": {
+		"postcss": "8.4.35"
+	}
+}

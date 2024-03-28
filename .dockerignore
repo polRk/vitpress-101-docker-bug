@@ -1,0 +1,30 @@
+# Version Control System
+.git
+.gitignore
+.gitmodules
+
+# Ignore artifacts:
+.turbo
+build
+dist
+dist-ssr
+
+# Ignore envs:
+.env
+.env.*
+
+# Ignore IDEs:
+.idea
+.vscode
+
+# Ignore logs:
+*.log
+
+# Ignore OS generated files:
+.DS_Store
+
+# Ignore node_modules:
+node_modules
+
+# Ignore caches:
+cache
